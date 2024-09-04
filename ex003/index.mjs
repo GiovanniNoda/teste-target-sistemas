@@ -5,3 +5,4 @@ const menorFaturamento = data
   .reduce((min, item) => item.valor < min ? item.valor : min, data[0].valor);
 
 console.log(`O menor valor de faturamento ocorrido em um dia do mês foi: ${menorFaturamento}`);
+
